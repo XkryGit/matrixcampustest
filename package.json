@@ -7,7 +7,7 @@
     "dev": "webpack serve --mode development",
     "build": "webpack --mode production",
     "prod": "serve -s dist -l 3000",
-    "test": "jest",
+    "test": "jest --coverage",
     "cypress": "cypress open"
   },
   "keywords": [],
