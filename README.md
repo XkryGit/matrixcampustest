@@ -27,7 +27,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### `npm run test`
 
 Runs the tests battery generated with Jest in the console.\
-To see the code coverage, when starting the tests a coverage report is generated that you can consult by opening the file **coverage/Icov-report/index.html** .\
+To see the code coverage, when starting the tests a coverage report is generated that you can consult by opening the file **coverage/Icov-report/index.html**
 
 These tests include:
 
