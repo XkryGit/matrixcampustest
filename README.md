@@ -52,9 +52,9 @@ These tests include:
 ### `npm run cypress`
 
 Runs the tests battery e2e generated with Cypress, showing in Cypress controller.\
-It is necessary to first run the app, with "npm run dev" for example.\
+It is necessary to first run the app, with "npm run dev" for example.
 
-Once the Cypress driver is open, we must click on e2e testing, start e2e testing in Chrome, and on the next control screen in the specs teste2e.cy.js.\
+Once the Cypress driver is open, we must click on e2e testing, start e2e testing in Chrome, and on the next control screen in the specs teste2e.cy.js
 
 These tests include:
 
