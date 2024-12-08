@@ -7,6 +7,7 @@ import SideBar from "../components/SideBar";
 const Podcast = ({ podcasts }) => {
   const { podcastId } = useParams();
   const { podcast, episodes } = usePodcastData(podcastId, null, podcasts);
+
   return (
     <div>
       {podcast && (

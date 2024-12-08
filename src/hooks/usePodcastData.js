@@ -31,7 +31,7 @@ const usePodcastData = (podcastId, episodeId, podcasts) => {
 
     const fetchPodcastDetails = async (db, foundPodcast) => {
       const response = await fetch(
-        `https://itunes.apple.com/lookup?id=${podcastId}&entity=podcastEpisode&limit=500`
+        `https://itunes.apple.com/lookup?id=${podcastId}&entity=podcastEpisode`
       );
       const data = await response.json();
       const podcastData = { ...foundPodcast, ...data.results[0] };

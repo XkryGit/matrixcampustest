@@ -18,7 +18,7 @@ const Home = ({ podcasts }) => {
       {podcasts ? (
         <PodcastList podcasts={podcastFiltered} />
       ) : (
-        <div className="loading-spinner-big"></div>
+        <div className="loading-spinner-big" role="spinner"></div>
       )}
     </div>
   );

@@ -12,7 +12,10 @@ const PodcastContent = ({ podcast, episodes, podcastId }) =>
       <EpisodesTable episodes={episodes} podcastId={podcastId} />
     </div>
   ) : (
-    <div className="loading-spinner-big loading-spinner-big-left-60"></div>
+    <div
+      className="loading-spinner-big loading-spinner-big-left-60"
+      role="spinner"
+    ></div>
   );
 
 export default PodcastContent;
